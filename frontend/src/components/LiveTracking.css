@@ -1,0 +1,77 @@
+/* src/components/LiveTracking.css */
+
+.live-tracking-container {
+    background: #fff;
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.05);
+    text-align: center;
+    margin-top: 40px;
+}
+
+.live-tracking-container h2 {
+    margin-top: 0;
+    font-size: 1.8rem;
+}
+
+.live-tracking-container p {
+    color: #6c757d;
+    margin-bottom: 25px;
+}
+
+.tracking-btn {
+    border: none;
+    padding: 15px 30px;
+    border-radius: 8px;
+    font-size: 1.1rem;
+    font-weight: 600;
+    cursor: pointer;
+    transition: all 0.2s ease;
+}
+
+.tracking-btn.start {
+    background-color: #007bff;
+    color: white;
+}
+.tracking-btn.start:hover {
+    background-color: #0056b3;
+}
+
+.tracking-btn.stop {
+    background-color: #e63946;
+    color: white;
+    margin-top: 20px;
+}
+.tracking-btn.stop:hover {
+    background-color: #c12e3a;
+}
+
+.tracking-active-panel h4 {
+    font-size: 1.3rem;
+    color: #2a9d8f;
+}
+
+.link-container {
+    display: flex;
+    justify-content: center;
+    margin-top: 15px;
+}
+
+.link-container input {
+    width: 70%;
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 5px 0 0 5px;
+    background-color: #f8f9fa;
+    font-size: 1rem;
+}
+
+.link-container button {
+    padding: 10px 15px;
+    border: 1px solid #007bff;
+    background-color: #007bff;
+    color: white;
+    border-radius: 0 5px 5px 0;
+    cursor: pointer;
+    font-weight: 600;
+}

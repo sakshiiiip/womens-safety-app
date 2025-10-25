@@ -1,0 +1,71 @@
+.about-page-container {
+  width: 90%;
+  max-width: 900px;
+  margin: 40px auto;
+  padding: 40px 20px;
+}
+
+.about-header {
+  text-align: center;
+  margin-bottom: 60px;
+}
+
+.about-header h1 {
+  font-size: 3rem;
+  font-weight: 700;
+  color: #343a40;
+  margin-bottom: 15px;
+}
+
+.about-header p {
+  font-size: 1.2rem;
+  color: #6c757d;
+  max-width: 600px;
+  margin: 0 auto;
+}
+
+.about-content {
+  display: flex;
+  flex-direction: column;
+  gap: 40px;
+}
+
+.about-section {
+  background: #ffffff;
+  padding: 30px;
+  border-radius: 10px;
+  border: 1px solid #e9ecef;
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.04);
+}
+
+.about-section h2 {
+  font-size: 1.8rem;
+  color: #e63946; /* The brand's primary red color */
+  margin-top: 0;
+  margin-bottom: 20px;
+  padding-bottom: 10px;
+  border-bottom: 2px solid #f1f3f5;
+}
+
+.about-section p {
+  font-size: 1.1rem;
+  line-height: 1.7;
+  color: #495057;
+}
+
+/* Specific styling for the 'How It Works' section */
+.how-it-works ol {
+  padding-left: 25px;
+}
+
+.how-it-works li {
+  font-size: 1.1rem;
+  line-height: 1.7;
+  color: #495057;
+  margin-bottom: 15px;
+}
+
+.how-it-works li strong {
+  color: #343a40;
+  font-weight: 600;
+}

@@ -1,0 +1,19 @@
+/* src/pages/TrackViewer.css */
+
+.track-viewer-container {
+    width: 100%;
+    height: calc(100vh - 80px); /* Full viewport height minus navbar */
+}
+
+.map {
+    width: 100%;
+    height: 100%;
+}
+
+.status-message {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.5rem;
+    color: #6c757d;
+}
