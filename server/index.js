@@ -14,7 +14,7 @@ let emergencyContacts = [
 app.use(express.json());
 const allowedOrigins = [
   'http://localhost:3000', // For local development
-   'https://womens-safety-k8g84oypd-pandeysakshii277-5369s-projects.vercel.app'
+`https://womens-safety-6h5chnosx-pandeysakshii277-5369s-projects.vercel.app`
   // We will add your Vercel frontend URL here later!
 ];
 const corsOptions = {
