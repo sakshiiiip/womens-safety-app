@@ -14,7 +14,8 @@ function TrackViewer() {
 
     useEffect(() => {
         const fetchLocation = () => {
-            axios.get(`http://localhost:5001/api/tracking/${sessionId}`)
+            axios.get(`${process.env.REACT_APP_API_URL}/api//tracking/${sessionId}`)
+        
                 .then(response => {
                     if(response.data.lat && response.data.lng) {
                         setLocation(response.data);

@@ -9,14 +9,14 @@ function EmergencyContacts() {
 
     useEffect(() => {
         // Fetch contacts when the component mounts
-        axios.get("http://localhost:5001/api/contacts")
+axios.get(`${process.env.REACT_APP_API_URL}/api/contacts`)
             .then(response => setContacts(response.data))
             .catch(error => console.error("Error fetching contacts:", error));
     }, []);
 
     const handleAddContact = (e) => {
         e.preventDefault();
-    axios.post(`${process.env.REACT_APP_API_URL}/api/send-alert`, { name, phone })
+        axios.post(`${process.env.REACT_APP_API_URL}/api/contacts`, { name, phone })
             .then(response => {
                 setContacts([...contacts, response.data]);
                 setName('');
