@@ -14,7 +14,7 @@ let emergencyContacts = [
 app.use(express.json());
 const allowedOrigins = [
   'http://localhost:3000',
-  'https://womens-safety-kvysr0s99-pandeysakshii277-5369s-projects.vercel.app' 
+  `https://womens-safety-pk26d8nig-pandeysakshii277-5369s-projects.vercel.app`
 ];
 const corsOptions = {
   origin: function (origin, callback) {
