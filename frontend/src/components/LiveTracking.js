@@ -32,7 +32,7 @@ function LiveTracking() {
                 watchId.current = navigator.geolocation.watchPosition(
                     (position) => {
                         const { latitude, longitude } = position.coords;
-                        axios.post(`http://localhost:5001/api/tracking/${newSessionId}/update`, {
+                        axios.post(`${process.env.REACT_APP_API_URL}/api/tracking/${newSessionId}/update`, {
                             lat: latitude,
                             lng: longitude
                         }).catch(err => console.error("Failed to send location update:", err));
