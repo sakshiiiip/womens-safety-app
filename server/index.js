@@ -13,8 +13,8 @@ let emergencyContacts = [
 // --- Middleware ---
 app.use(express.json());
 const allowedOrigins = [
-  'http://localhost:3000', // For local development
-`https://womens-safety-kvysr0s99-pandeysakshii277-5369s-projects.vercel.app/`  // We will add your Vercel frontend URL here later!
+  'http://localhost:3000',
+  'https://womens-safety-kvysr0s99-pandeysakshii277-5369s-projects.vercel.app' 
 ];
 const corsOptions = {
   origin: function (origin, callback) {
